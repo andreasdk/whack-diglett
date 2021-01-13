@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "pokemon_hollownormal";
+  src: url("pokemon_hollow-webfont.woff2") format("woff2"),
+    url("pokemon_hollow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pokemon_solidnormal";
+  src: url("pokemon_solid-webfont.woff2") format("woff2"),
+    url("pokemon_solid-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pokemon_classicregular";
+  src: url("pokemon_classic-webfont.woff2") format("woff2"),
+    url("pokemon_classic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: pokemon_classicregular;
+}
+
+.top {
+  display: grid;
+  justify-content: center;
+}
+
+.top h1,
+h3 {
+  text-align: center;
+}
+
+.square {
+  background-color: #9bbc0f;
+  border: 2px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px 20px;
+  justify-content: center;
+}
+
+.mole {
+  background-image: url("050.png");
+  background-size: cover;
+}
+
+.pokemon {
+  font-family: pokemon_solidnormal;
+}
